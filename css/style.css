@@ -14,7 +14,7 @@
 
 .wrapper {
     width: 80%;
-    margin: 30px auto;
+    margin: 0 auto 30px auto;
     font-family: "Montserrat", Arial, Helvetica, sans-serif;
 }
 
@@ -29,11 +29,16 @@
     left: 0;
 }
 
-.text-color-gray {
+.text-content-gray {
     font-size: 16px;
-    color: #808080;
+    color: #777777;
     font-weight: 300;
 }
+
+.text-title-gray {
+    color: #393939;
+}
+
 /* HEADER */
 .header .logo{
     width: 150px;
@@ -54,6 +59,7 @@
     padding: 30px 20px 30px 0;
     color: #9f9f9f;
 }
+
 /* MAIN */
 .section-banner {
     height: 600px;
@@ -78,9 +84,10 @@
     font-size: 20px;
 }
 
-.lighter-font {
-    font-weight: 300;
+.banner-font {
+    font-weight: 500;
 }
+
 /* FLOAT PART */
 .main-content-title {
     padding: 30px 0 30px 0;
@@ -113,7 +120,9 @@
 
 .col h3 {
     padding: 20px 0 20px 0;
+
 }
+
 /* FOOTER */
 .footer {
     text-align: center;
@@ -121,6 +130,6 @@
 }
 
 .heart {
-    font-size: 25px;
+    font-size: 23px;
     color: red;
 }
